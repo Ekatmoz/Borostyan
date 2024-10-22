@@ -1,0 +1,54 @@
+/* Font weight adjustment for titles */
+.card-title {
+  font-weight: 300;
+}
+
+/* Delivery column styling with right border for line effect */
+.delivery-col {
+  padding: 20px;
+  border-right: 1px solid #ddd; /* Add right border to create vertical lines */
+}
+
+/* Remove the right border for the last column in the row */
+.no-border {
+  border-right: none; /* Remove border for the last column */
+}
+
+/* Gallery images styling */
+.gallery-image {
+  max-height: 250px;
+  object-fit: cover; /* Ensures the image covers the entire area */
+  transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+/* Hover effect on gallery images */
+.gallery-image:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
+
+/* Fade transition for the carousel */
+.carousel-fade {
+  transition: opacity 1s ease-in-out !important; /* Smooth fade transition between slides */
+}
+
+/* Minimum height for carousel items */
+.carousel-item {
+  min-height: 250px;
+}
+
+
+
+/* Responsive design adjustments */
+/* On smaller screens, remove the right border and add a bottom border for stacked columns */
+@media (max-width: 767px) {
+  .delivery-col {
+    border-right: none; /* Remove right border on small screens */
+    border-bottom: 1px solid #ddd; /* Add bottom border for stacked columns */
+    margin-bottom: 10px; /* Add some space between stacked columns */
+  }
+
+  /* Adjust padding for a more compact design on small screens */
+  .delivery-col {
+    padding: 15px;
+  }
+}

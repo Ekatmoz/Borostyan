@@ -1,0 +1,16 @@
+.background {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  background: url(../../img/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  height: 100%;
+}
+.custom-rounded {
+  border-radius: 20px; /* Adjust this value for more or less rounding */
+}
+.text{
+  padding-bottom: 50px;
+}

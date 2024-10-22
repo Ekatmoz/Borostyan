@@ -1,0 +1,14 @@
+.delivery-container {
+  padding-top: 5rem;
+  padding-bottom: calc(10rem - 4.5rem);
+}
+
+.pattern{
+  position: relative;
+}
+.pattern img{
+  position: absolute;
+  right: 550px;
+  bottom: 30px;
+  z-index: -1;
+}
