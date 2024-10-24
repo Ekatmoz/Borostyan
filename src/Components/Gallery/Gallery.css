@@ -19,6 +19,7 @@
   max-height: 250px;
   object-fit: cover; /* Ensures the image covers the entire area */
   transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+  border-radius: 15px;
 }
 
 /* Hover effect on gallery images */
@@ -35,8 +36,6 @@
 .carousel-item {
   min-height: 250px;
 }
-
-
 
 /* Responsive design adjustments */
 /* On smaller screens, remove the right border and add a bottom border for stacked columns */

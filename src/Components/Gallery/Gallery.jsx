@@ -9,10 +9,11 @@ import {
   Container,
 } from 'reactstrap';
 import img1 from '../../img/gallery1.jpg';
-import img2 from '../../img/aboutUs.jpg';
-import img3 from '../../img/gallery3.jpg';
-import img4 from '../../img/aboutUs.jpg';
-import img5 from '../../img/gallery2.jpg';
+import img2 from '../../img/gallery3.jpg';
+import img3 from '../../img/aboutUs.jpg';
+import img4 from '../../img/cleaning.jpeg';
+import img5 from '../../img/rita.jpeg';
+import img6 from '../../img/about_img2.jpeg';
 import './Gallery.css'; // Import custom CSS for advanced styling
 
 // Example image data
@@ -22,6 +23,7 @@ const items = [
   { src: img3, altText: 'Image 3' },
   { src: img4, altText: 'Image 4' },
   { src: img5, altText: 'Image 5' },
+  { src: img6, altText: 'Image 6' },
 ];
 
 const Gallery = () => {
@@ -70,14 +72,21 @@ const Gallery = () => {
 
   return (
     <div>
-      <Container>
-        <h2 className='title' id='gallery'>Galéria</h2>
+      <Container fluid='md'>
+        <Row className='text-center mb-4 justify-content-md-center'>
+        <Col xs={12} md={7}>
+        <h2 className='title text-center' id='gallery'>Galéria</h2>
+       
+        <p className="description">Fedezze fel cégünk világát a galériánkban! Ismerje meg a természet tisztaságát, a gyártási folyamatunk innovációit és a termékeink iránti szenvedélyünket! </p>
+        </Col>
+        </Row>
       </Container>
+      <Container>
       <Carousel
         activeIndex={activeIndex}
         next={next}
         previous={previous}
-        interval={3000} // Auto-slide every 3 seconds
+        interval={2000} // Auto-slide every 3 seconds
       >
         <CarouselIndicators
           items={Array(groupedItems.length).fill(0).map((_, i) => ({ id: i }))}
@@ -96,6 +105,7 @@ const Gallery = () => {
           onClickHandler={next}
         />
       </Carousel>
+      </Container>
     </div>
   );
 };

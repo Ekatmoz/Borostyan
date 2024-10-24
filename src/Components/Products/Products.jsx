@@ -6,8 +6,8 @@ import './Products.css';
 const Products = () => {
   return (
     <Container id='products'>
-      <Row className='container'>
-        <h2 className='title'> Termékek</h2>
+      <Row className='container text-center'>
+        <h2 className='title '> Termékek</h2>
         <h5 className='description text-center mb-4'>Új vásárlók esetén betéti díjat számolunk fel</h5>
       </Row>
       <CardGroup>
