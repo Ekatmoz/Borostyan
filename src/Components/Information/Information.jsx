@@ -8,7 +8,6 @@ const Information = () => {
       <Container>
         <Row className='mb-4 mt-4'>
           <Col xs={12} md={5} className='text'>
-            {/* <img src={about_2} alt="Our factory" className="img-fluid custom-rounded mb-3" style={{ maxWidth: '80%', height: 'auto' }}  /> */}
             <img
               src={about}
               alt='Our office'
@@ -28,12 +27,12 @@ const Information = () => {
               berendezésekkel és technológiával szabad előállítani, melyeknek üzemünk teljes mértékben megfelel. A HACCP
               alapelveken alapuló eljárások betartásával működünk.
             </p>
-            <p className='description' style={{ color: '#fff' }}>
+            <p className='description' >
               Nekünk fontos, hogy környezettudatosan éljünk! Az újratölthető palackoknak köszönhetően minden
               kiszerelés környezetbarát, nem szennyezzük a természetet a sok eldobott csomagolással, nem terheljük
-              pénztárcánkat a szemétdíjjal, energiánkat a szelektív gyűjtéssel és a visszaváltás gyötrelmeivel!
+              pénztárcánkat a szemétdíjjal, energiánkat a szelektív gyűjtéssel és a visszaváltás gyötrelmeivel.....
             </p>
-            <Button className='btn-round' color='info' type='button'>
+            <Button className='btn-round' color='info' type='button' >
               Tovább olvasom...
             </Button>
           </Col>

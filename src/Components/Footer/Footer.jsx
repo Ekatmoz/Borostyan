@@ -15,7 +15,7 @@ const Footer = () => {
         </Row> 
         </Col> */}
         <Row className='className="justify-content-md-center' >
-          <Col xs={6} md={3}>
+          <Col xs={6} md={4}>
             <h3>Elérhetőségek</h3>
             <p>
               <strong>Cím:</strong> 8600 Siófok, Borostyán utca 36.
@@ -54,7 +54,8 @@ const Footer = () => {
         <hr className='bg-light' />
         <Row>
           <Col md='12' className='text-center'>
-            <p className='mb-0'>© 2024 Katerina Szén. All rights reserved.</p>
+            <p className='mb-0'>© 2024 
+            Borostyán Szikvíz. All rights reserved. Made by Sió Creative I.T.</p>
           </Col>
         </Row>
       </Container>
