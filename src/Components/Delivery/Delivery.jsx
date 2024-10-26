@@ -15,7 +15,6 @@ const Delivery = () => {
                 Kiszállítási menetrend
               </h3>
             </div>
-            {/* <i className="fa-solid fa-truck custom-icon mb-3"></i> */}
           </Col>
         </Row>
         <Container>

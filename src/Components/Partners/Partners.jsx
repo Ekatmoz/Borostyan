@@ -7,7 +7,7 @@ import img4 from '../../img/egycsipenapolylogo.png';
 import img5 from '../../img/spirit.png';
 import img6 from '../../img/balaton_grill.webp';
 import img7 from '../../img/topart.png';
-import img8 from '../../img/freskó.jpeg';
+import img8 from '../../img/fresko.jpeg';
 import img9 from '../../img/melba.jpeg';
 import img10 from '../../img/sungarden.png';
 import img11 from '../../img/siofok-marcipan-cukraszda-kavezo7.jpg';
