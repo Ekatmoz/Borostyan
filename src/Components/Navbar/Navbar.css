@@ -2598,7 +2598,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 .navbar-transparent .btn-default.btn-fill,
 [class*="bg"] .btn-default.btn-fill {
-  color: #9a9a9a;
+  color: #146C94;
   background-color: #ffffff;
   opacity: 0.9;
   filter: alpha(opacity=90);
@@ -5020,7 +5020,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   }
   .navbar-collapse .navbar-nav > .nav-item > .nav-link {
     margin: 0px 0px;
-    color: #9a9a9a !important;
+    color: #146C94 !important;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 12px;
