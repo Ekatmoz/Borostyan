@@ -2110,9 +2110,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 
 /* all icon font classes list here */
-.btn-twitter {
-  color: #55acee !important;
-}
 .btn-twitter:hover,
 .btn-twitter:focus,
 .btn-twitter:active {
@@ -2455,7 +2452,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   padding-right: 10px;
 }
 .navbar .navbar-collapse:after {
-  background-color: #fffcf5;
+  background-color: #F6F1F1;
 }
 .navbar #navbarSupportedContent .nav-item {
   position: relative;
