@@ -14,3 +14,12 @@
 .text{
   padding-bottom: 50px;
 }
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem; /* Space between image and title */
+  margin-bottom: 1.5rem;
+}

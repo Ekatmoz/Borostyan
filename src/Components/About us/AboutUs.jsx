@@ -1,16 +1,20 @@
 import { Container, Row, Col } from 'reactstrap';
-import about from '../../img/about_img.jpeg';
+import about from '../../img/rolunk.jpeg';
 import './AboutUs.css';
+import theme_pattern from '../../img/pattern.png';
 
 const AboutUs = () => {
   return (
     <div className='background' id='about'>
-      <Container >
+      <Container>
         <Row>
           <Col xs={12} md={7} className='text'>
-            <h3 className='title' style={{ color: '#fff' }}>
-              Rólunk
-            </h3>
+            <div className='title-container'>
+              <img src={theme_pattern} alt='pattern' style={{ width: '70px' }} />
+              <h3 className='title' style={{ color: '#fff', marginTop: '0px' }}>
+                Rólunk
+              </h3>
+            </div>
             <p className='description' style={{ color: '#fff' }}>
               2020-ban épült üzemünk Siófokon a Borostyán utca 36. szám alatt. Teljesen új, korszerű gépekkel állítjuk
               elő a szikvizet, melyet hotelekbe, vendéglátó egységekbe és a környék lakosságágnak egyaránt szállítunk.

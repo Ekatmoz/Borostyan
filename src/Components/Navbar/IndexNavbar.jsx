@@ -11,6 +11,7 @@ import {
   Nav,
   Container,
 } from "reactstrap";
+import { Link as ReactLink } from 'react-router-dom';
 
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
@@ -32,16 +33,16 @@ function IndexNavbar() {
 
     window.addEventListener("scroll", updateNavbarColor);
 
-    return function cleanup() {
+    return () => {
       window.removeEventListener("scroll", updateNavbarColor);
     };
-  }, []); // Empty dependency array to avoid repeated event listener additions
+  }, []);
 
   return (
     <Navbar className={classnames("fixed-top", navbarColor)} expand="lg">
       <Container className="d-flex justify-content-between align-items-center">
         <div className="navbar-translate">
-          <NavbarBrand href="/">
+          <NavbarBrand tag={ReactLink} to="/">
             <img
               src={logo}
               alt="Borostyán Szikvíz Siófok logo"
@@ -54,7 +55,7 @@ function IndexNavbar() {
             aria-expanded={navbarCollapse}
             className={classnames("navbar-toggler navbar-toggler", { toggled: navbarCollapse })}
             onClick={toggleNavbarCollapse}
-            aria-label="Toggle navigation" // Added for better accessibility
+            aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-bar bar1" />
             <span className="navbar-toggler-bar bar2" />

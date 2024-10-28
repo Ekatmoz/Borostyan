@@ -13,6 +13,7 @@ import img10 from '../../img/sungarden.png';
 import img11 from '../../img/siofok-marcipan-cukraszda-kavezo7.jpg';
 import img12 from '../../img/marci abc.webp';
 
+
 const Partners = () => {
   return (
     <Container className='advantages-container'>

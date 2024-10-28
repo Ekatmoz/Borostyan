@@ -1,7 +1,6 @@
 import React from 'react';
 import './Footer.css';
 import { Container, Row, Col } from 'reactstrap';
-// import footer_logo from '../../img/logo.png';
 
 const Footer = () => {
   return (

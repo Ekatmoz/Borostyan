@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import './Delivery.css';
 import theme_pattern from '../../img/pattern.png';
+import './Delivery.css'
 
 const Delivery = () => {
   return (
@@ -9,12 +9,10 @@ const Delivery = () => {
       <Container>
         <Row className='text-center mb-4'>
           <Col>
-            <div className='pattern'>
-              <img src={theme_pattern} alt='pattern' width={50} />
-              <h3 className='title' id='delivery'>
-                Kiszállítási menetrend
-              </h3>
-            </div>
+            <img src={theme_pattern} alt='pattern' width={70} />
+            <h3 className='title' id='delivery'>
+              Kiszállítási menetrend
+            </h3>
           </Col>
         </Row>
         <Container>
