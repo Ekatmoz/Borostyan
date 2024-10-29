@@ -18,7 +18,7 @@ const Partners = () => {
   return (
     <Container className='advantages-container'>
       <Row>
-        <h1 className="title">Partnerünk</h1>
+        <h1 className="title">Partnereink</h1>
       </Row>
       <Row>
         <Col>
