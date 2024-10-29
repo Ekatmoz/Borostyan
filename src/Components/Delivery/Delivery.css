@@ -3,5 +3,34 @@
 }
 
 .delivery-col p, h4{
-  color: #146C94;
+  color: #146C94 !important;
 }
+
+/* Delivery column styling with right border for line effect */
+.delivery-col {
+  padding: 20px;
+  border-right: 1px solid #ddd; /* Add right border to create vertical lines */
+}
+
+/* Remove the right border for the last column in the row */
+.no-border {
+  border-right: none; /* Remove border for the last column */
+}
+
+
+/* Responsive design adjustments */
+/* On smaller screens, remove the right border and add a bottom border for stacked columns */
+@media (max-width: 767px) {
+  .delivery-col {
+    border-right: none; /* Remove right border on small screens */
+    border-bottom: 1px solid #ddd; /* Add bottom border for stacked columns */
+    margin-bottom: 10px; /* Add some space between stacked columns */
+  }
+
+  /* Adjust padding for a more compact design on small screens */
+  .delivery-col {
+    padding: 15px;
+  }
+}
+
+

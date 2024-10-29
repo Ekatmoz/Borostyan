@@ -66,7 +66,7 @@ function IndexNavbar() {
         <Collapse isOpen={navbarCollapse} navbar className="justify-content-end">
           <Nav navbar className="mr-auto">
             <NavItem>
-              <NavLink href="#home">FŐOLDAL</NavLink>
+              <NavLink href="#home" tag={ReactLink} to="/">FŐOLDAL</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="#products">TERMÉKEK</NavLink>
