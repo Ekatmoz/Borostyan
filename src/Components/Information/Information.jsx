@@ -1,6 +1,6 @@
 import { Container, Row, Col, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import about from '../../img/about_img.jpeg';
+import about from '../../img/info_img.jpg';
 import './Information.css';
 import theme_pattern from '../../img/pattern.png';
 

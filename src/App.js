@@ -5,7 +5,6 @@ import Info from './Screens/Info';
 import IndexNavbar from './Components/Navbar/IndexNavbar';
 import Footer from './Components/Footer/Footer';
 
-
 function App() {
   return (
     <BrowserRouter>

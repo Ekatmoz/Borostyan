@@ -23,23 +23,23 @@ const Delivery = () => {
             </Col>
             <Col xs='12' md='4' className='delivery-col text-center'>
               <h4 className='card-title'>Kedd</h4>
-              <p>Balatonendréd-Zamárdi-Töreki</p>
+              <p className='description'>Balatonendréd-Zamárdi-Töreki</p>
             </Col>
             <Col xs='12' md='4' className='delivery-col no-border text-center'>
               <h4 className='card-title'>Szerda</h4>
-              <p>Siófok-Szabadifürdő-Kiliti</p>
+              <p className='description'>Siófok-Szabadifürdő-Kiliti</p>
             </Col>
             <Col xs='12' md='4' className='delivery-col text-center'>
               <h4 className='card-title'>Csütörtök</h4>
-              <p>nincs kiszállítás, de üzemünk nyitva van, töltetni lehet</p>
+              <p className='description'>nincs kiszállítás, de üzemünk nyitva van, töltetni lehet</p>
             </Col>
             <Col xs='12' md='4' className='delivery-col text-center'>
               <h4 className='card-title'>Péntek</h4>
-              <p>Siófok-Kiliti</p>
+              <p className='description'>Siófok-Kiliti</p>
             </Col>
             <Col xs='12' md='4' className='delivery-col no-border text-center'>
               <h4 className='card-title'>Szombat</h4>
-              <p>Balatonendréd-Zamárdi-Töreki</p>
+              <p className='description'>Balatonendréd-Zamárdi-Töreki</p>
             </Col>
           </Row>
         </Container>

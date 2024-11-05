@@ -2,10 +2,6 @@
   margin: 20px;
 }
 
-.delivery-col p, h4{
-  color: #146C94 !important;
-}
-
 /* Delivery column styling with right border for line effect */
 .delivery-col {
   padding: 20px;

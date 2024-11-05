@@ -28,7 +28,7 @@ const Info = () => {
               csővezetékkel a letöltő berendezésekhez vezetik, mely segítségével szifonfejes flakonokba, illetve
               szikvízballonokba történik a palackozás.
             </p>
-            <p className='description' style={{ color: '#F95454', fontWeight: 'bold' }}>
+            <p className='description' style={{ color: '#fff', fontWeight: 'bold' }}>
               A zárt rendszerű palackozásnak köszönhetően a szén-dioxid tartalmát az utolsó cseppjéig megtartja,
               meggátolja a víz oxidációját, és a minőségromlását.
             </p>
