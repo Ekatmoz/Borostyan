@@ -1,3 +1,5 @@
+import React, { useEffect } from 'react';
+import Swal from 'sweetalert2';
 import AboutUs from "../Components/About us/AboutUs";
 import Advantages from "../Components/Advantages/Advantages";
 import Delivery from "../Components/Delivery/Delivery";
@@ -8,6 +10,15 @@ import Partners from "../Components/Partners/Partners";
 import Products from "../Components/Products/Products";
 
 const Home = () => {
+
+  useEffect(() => {
+    Swal.fire({
+      title: 'Kedves vásárlóink!',
+      html: 'November 13.-án szerdán zárva vagyunk!<br />Megértésüket köszönjük szépen!',
+      icon: 'info',
+      confirmButtonText: 'Ok',
+    });
+  }, [])
   return (
     <div id="home">
       <Hero/>
