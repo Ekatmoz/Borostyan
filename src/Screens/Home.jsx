@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+// import React, { useEffect } from 'react';
 //import Swal from 'sweetalert2';
 import AboutUs from "../Components/About us/AboutUs";
 import Advantages from "../Components/Advantages/Advantages";
