@@ -2,7 +2,7 @@ import { Container, Card, CardImg, CardBody, Row, Col } from 'reactstrap';
 import ballon from '../../img/ballon.jpg';
 import flacon from '../../img/Flacon.png';
 import flacon2 from '../../img/Flacon1l.png';
-import piviz1 from '../../img/piViz19.png';
+// import piviz1 from '../../img/piViz19.png';
 import piviz2 from '../../img/piViz5.png'
 import piviz3 from '../../img/piViz1.png'
 import './Products.css';
