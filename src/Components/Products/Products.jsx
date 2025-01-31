@@ -3,6 +3,8 @@ import ballon from '../../img/ballon.jpg';
 import flacon from '../../img/Flacon.png';
 import flacon2 from '../../img/Flacon1l.png';
 import piviz1 from '../../img/piViz19.png';
+import piviz2 from '../../img/piViz5.png'
+import piviz3 from '../../img/piViz1.png'
 import './Products.css';
 import theme_pattern from '../../img/pattern.png';
 
@@ -62,6 +64,38 @@ const Products = () => {
               >
                 Új
               </span>
+            <CardImg alt='Card image cap' src={piviz3} top width='100%' />
+            <CardBody className="position-relative">
+              
+              <h6 className='card-category'>80 Ft</h6>
+              <p className='description'>1l Pi víz</p>
+            </CardBody>
+          </Card>
+        </Col>
+        <Col lg="3" md="6">
+          <Card className='mx-2 mb-4 position-relative' style={{ borderRadius: '10px', border: '#0061a4' }}>
+          <span
+                className='badge bg-danger position-absolute top-0 end-0 m-2 p-2 rounded-pill'
+                style={{ fontSize: '1rem' }}
+              >
+                Új
+              </span>
+            <CardImg alt='Card image cap' src={piviz2} top width='100%' />
+            <CardBody className="position-relative">
+              
+              <h6 className='card-category'>400 Ft</h6>
+              <p className='description'>5l Pi víz</p>
+            </CardBody>
+          </Card>
+        </Col>
+        {/* <Col lg="3" md="6">
+          <Card className='mx-2 mb-4 position-relative' style={{ borderRadius: '10px', border: '#0061a4' }}>
+          <span
+                className='badge bg-danger position-absolute top-0 end-0 m-2 p-2 rounded-pill'
+                style={{ fontSize: '1rem' }}
+              >
+                Új
+              </span>
             <CardImg alt='Card image cap' src={piviz1} top width='100%' />
             <CardBody className="position-relative">
               
@@ -69,7 +103,7 @@ const Products = () => {
               <p className='description'>19l Pi víz</p>
             </CardBody>
           </Card>
-        </Col>
+        </Col> */}
       </Row>
     </Container>
   );
