@@ -2,7 +2,7 @@ import { Container, Card, CardImg, CardBody, Row, Col } from 'reactstrap';
 import ballon from '../../img/ballon.jpg';
 import flacon from '../../img/Flacon.png';
 import flacon2 from '../../img/Flacon1l.png';
-// import piviz1 from '../../img/piViz19.png';
+import piviz1 from '../../img/piViz19.png';
 import piviz2 from '../../img/piViz5.png'
 import piviz3 from '../../img/piViz1.png'
 import './Products.css';
@@ -88,7 +88,7 @@ const Products = () => {
             </CardBody>
           </Card>
         </Col>
-        {/* <Col lg="3" md="6">
+        <Col lg="3" md="6">
           <Card className='mx-2 mb-4 position-relative' style={{ borderRadius: '10px', border: '#0061a4' }}>
           <span
                 className='badge bg-danger position-absolute top-0 end-0 m-2 p-2 rounded-pill'
@@ -103,7 +103,7 @@ const Products = () => {
               <p className='description'>19l Pi víz</p>
             </CardBody>
           </Card>
-        </Col> */}
+        </Col>
       </Row>
     </Container>
   );
