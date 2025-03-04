@@ -11,11 +11,14 @@ import {
   Nav,
   Container,
 } from "reactstrap";
-import { Link as ReactLink } from 'react-router-dom';
+import { Link as ReactLink, useLocation } from 'react-router-dom';
 
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [navbarCollapse, setNavbarCollapse] = React.useState(false);
+  const location = useLocation();
+
+  const navFontColorClass = location.pathname === '/' ? 'navbar-white' : 'navbar-blue';
 
   const toggleNavbarCollapse = () => {
     setNavbarCollapse(!navbarCollapse);
@@ -39,7 +42,7 @@ function IndexNavbar() {
   }, []);
 
   return (
-    <Navbar className={classnames("fixed-top", navbarColor)} expand="lg">
+    <Navbar className={classnames("fixed-top", navbarColor, navFontColorClass)} expand="lg" href="/">
       <Container className="d-flex justify-content-between align-items-center">
         <div className="navbar-translate">
           <NavbarBrand tag={ReactLink} to="/">
@@ -63,7 +66,7 @@ function IndexNavbar() {
           </button>
         </div>
 
-        <Collapse isOpen={navbarCollapse} navbar className="justify-content-end">
+        <Collapse isOpen={navbarCollapse} navbar className="justify-content-end ">
           <Nav navbar className="mr-auto">
             <NavItem>
               <NavLink href="#home" tag={ReactLink} to="/">FŐOLDAL</NavLink>

@@ -1,0 +1,26 @@
+.box{
+  background: rgb(25,167,206);
+  background: linear-gradient(0deg, rgba(126,206,228,1) 22%, rgba(255,255,255,0.7637648809523809) 56%);
+  background-size: cover;
+  padding: 60px 0;
+}
+.paragraph{
+  padding: 100px 60px;
+}
+.paragraph h5{
+  font-weight: 500;
+}
+
+.list{
+  color: #146C94;
+  margin-bottom: 1rem;
+  font-size: 15px;
+  line-height: 1.5rem;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Montserrat", "Helvetica", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+ 
+}
+.ul.list {
+  list-style-type: disc !important;
+}

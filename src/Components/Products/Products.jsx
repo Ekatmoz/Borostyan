@@ -16,47 +16,12 @@ const Products = () => {
           <img src={theme_pattern} alt='pattern' style={{ width: '70px' }} />
           <h2 className='title'>Termékek</h2>
         </div>
-        <h5 className='description text-center mb-4'>Új vásárlók esetén betéti díjat számolunk fel</h5>
+        <h5 className='description text-center mb-4'>Örömmel mutatjuk be új termékünket, a Pí Víz-t, amely a tisztaságot és a kiváló ízt képviseli!</h5>
+        <p className='description text-center mb-4'>Új vásárlók esetén betéti díjat számolunk fel</p>
       </Row>
       
       <Row className="g-4">
-        <Col lg="3" md="6">
-          <Card className='mx-2 mb-4' style={{ borderRadius: '10px', border: '#0061a4' }}>
-            <CardImg alt='Card image cap' src={ballon} top width='100%' />
-            <CardBody>
-              <h6 className='card-category'>2000 Ft</h6>
-              <p className='description'>25l Rozsdamentes ballon töltése</p>
-            </CardBody>
-          </Card>
-        </Col>
-        <Col lg="3" md="6">
-          <Card className='mx-2 mb-4' style={{ borderRadius: '10px', border: '#0061a4' }}>
-            <CardImg alt='Card image cap' src={flacon} top width='100%' />
-            <CardBody>
-              <h6 className='card-category'>170 Ft</h6>
-              <p className='description'>2l flakon töltése</p>
-            </CardBody>
-          </Card>
-        </Col>
-        <Col lg="3" md="6">
-          <Card className='mx-2 mb-4' style={{ borderRadius: '10px', border: '#0061a4' }}>
-            <CardImg alt='Card image cap' src={flacon} top width='100%' />
-            <CardBody>
-              <h6 className='card-category'>140 Ft</h6>
-              <p className='description'>1,5l flakon töltése</p>
-            </CardBody>
-          </Card>
-        </Col>
-        <Col lg="3" md="6">
-          <Card className='mx-2 mb-4' style={{ borderRadius: '10px', border: '#0061a4' }}>
-            <CardImg alt='Card image cap' src={flacon2} top width='100%' />
-            <CardBody>
-              <h6 className='card-category'>120 Ft</h6>
-              <p className='description'>1l flakon töltése</p>
-            </CardBody>
-          </Card>
-        </Col>
-        <Col lg="3" md="6">
+      <Col lg="3" md="6">
           <Card className='mx-2 mb-4 position-relative' style={{ borderRadius: '10px', border: '#0061a4' }}>
           <span
                 className='badge bg-danger position-absolute top-0 end-0 m-2 p-2 rounded-pill'
@@ -104,6 +69,43 @@ const Products = () => {
             </CardBody>
           </Card>
         </Col>
+        <Col lg="3" md="6">
+          <Card className='mx-2 mb-4' style={{ borderRadius: '10px', border: '#0061a4' }}>
+            <CardImg alt='Card image cap' src={ballon} top width='100%' />
+            <CardBody>
+              <h6 className='card-category'>2000 Ft</h6>
+              <p className='description'>25l Rozsdamentes ballon töltése</p>
+            </CardBody>
+          </Card>
+        </Col>
+        <Col lg="3" md="6">
+          <Card className='mx-2 mb-4' style={{ borderRadius: '10px', border: '#0061a4' }}>
+            <CardImg alt='Card image cap' src={flacon} top width='100%' />
+            <CardBody>
+              <h6 className='card-category'>170 Ft</h6>
+              <p className='description'>2l flakon töltése</p>
+            </CardBody>
+          </Card>
+        </Col>
+        <Col lg="3" md="6">
+          <Card className='mx-2 mb-4' style={{ borderRadius: '10px', border: '#0061a4' }}>
+            <CardImg alt='Card image cap' src={flacon} top width='100%' />
+            <CardBody>
+              <h6 className='card-category'>140 Ft</h6>
+              <p className='description'>1,5l flakon töltése</p>
+            </CardBody>
+          </Card>
+        </Col>
+        <Col lg="3" md="6">
+          <Card className='mx-2 mb-4' style={{ borderRadius: '10px', border: '#0061a4' }}>
+            <CardImg alt='Card image cap' src={flacon2} top width='100%' />
+            <CardBody>
+              <h6 className='card-category'>120 Ft</h6>
+              <p className='description'>1l flakon töltése</p>
+            </CardBody>
+          </Card>
+        </Col>
+        
       </Row>
     </Container>
   );
