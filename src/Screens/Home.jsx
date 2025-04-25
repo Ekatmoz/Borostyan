@@ -13,7 +13,7 @@ const Home = () => {
   useEffect(() => {
     Swal.fire({
       title: 'Kedves vásárlóink!',
-      html: 'Ünnepi nyitvatartásunk: <br />Április 18. pénteken 8-12-ig<br /> Április 19. szombaton 8-12-ig <br /> Vasárnap és hétfőn zárva tartunk.<br /> Mindenkinek kellemes húsvéti ünnepeket kívánunk! ',
+      html: 'Nyitvatartásunk a jövő hétenk: <br />Hétfőn (április 28.) 8-17-ig<br /> Kedden (április 29.) 8-17-ig<br /> Szerdától vasárnapig üzemünk zárva tart, kiszállítás szünetel!<br /> Megértésüket köszönjük szépen!',
       icon: 'info',
       confirmButtonText: 'Ok',
     });
