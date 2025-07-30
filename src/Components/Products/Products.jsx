@@ -18,6 +18,7 @@ const Products = () => {
         </div>
         <h5 className='description text-center mb-4'>Örömmel mutatjuk be új termékünket, a Pí Víz-t, amely a tisztaságot és a kiváló ízt képviseli!</h5>
         <p className='description text-center mb-4'>Új vásárlók esetén betéti díjat számolunk fel</p>
+        <h6 className='description'>MÁR PB gáz IS CSERÉLHETŐ NÁLUNK ❗❗❗</h6>
       </Row>
       
       <Row className="g-4">
