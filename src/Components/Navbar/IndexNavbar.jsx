@@ -34,8 +34,6 @@ function IndexNavbar() {
   }, []);
 
   return (
-    <>
-      <div className='info-bar'>MÁR PB gáz IS CSERÉLHETŐ NÁLUNK ❗❗❗</div>
       <Navbar className={classnames('fixed-top', navbarColor, navFontColorClass)} expand='lg' href='/'>
         <Container className='d-flex justify-content-between align-items-center'>
           <div className='navbar-translate'>
@@ -102,7 +100,6 @@ function IndexNavbar() {
           </Collapse>
         </Container>
       </Navbar>
-    </>
   );
 }
 

@@ -17,24 +17,6 @@
   outline: none;
 }
 
-.info-bar {
-  width: 100%;
-  background-color: #f3f3f3; /* or another highlight color */
-  color: #000;
-  text-align: center;
-  padding: 6px 0;
-  font-size: 14px;
-  font-weight: 600;
-  z-index: 1051; /* make sure it's above everything */
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.navbar {
-  margin-top: 30px; /* adjust if needed so navbar doesn't overlap with info bar */
-}
-
 .badge-primary {
   background-color: #51cbce;
 }
