@@ -32,7 +32,7 @@ const Products = () => {
             <CardImg alt='Card image cap' src={piviz3} top width='100%' />
             <CardBody className="position-relative">
               
-              <h6 className='card-category'>80 Ft</h6>
+              {/* <h6 className='card-category'>80 Ft</h6> */}
               <p className='description'>1l Pi víz</p>
             </CardBody>
           </Card>
@@ -48,7 +48,7 @@ const Products = () => {
             <CardImg alt='Card image cap' src={piviz2} top width='100%' />
             <CardBody className="position-relative">
               
-              <h6 className='card-category'>400 Ft</h6>
+              {/* <h6 className='card-category'>400 Ft</h6> */}
               <p className='description'>5l Pi víz</p>
             </CardBody>
           </Card>
@@ -64,7 +64,7 @@ const Products = () => {
             <CardImg alt='Card image cap' src={piviz1} top width='100%' />
             <CardBody className="position-relative">
               
-              <h6 className='card-category'>1500 Ft</h6>
+              {/* <h6 className='card-category'>1500 Ft</h6> */}
               <p className='description'>19l Pi víz</p>
             </CardBody>
           </Card>
@@ -73,7 +73,7 @@ const Products = () => {
           <Card className='mx-2 mb-4' style={{ borderRadius: '10px', border: '#0061a4' }}>
             <CardImg alt='Card image cap' src={ballon} top width='100%' />
             <CardBody>
-              <h6 className='card-category'>2000 Ft</h6>
+              {/* <h6 className='card-category'>2000 Ft</h6> */}
               <p className='description'>25l Rozsdamentes ballon töltése</p>
             </CardBody>
           </Card>
@@ -82,7 +82,7 @@ const Products = () => {
           <Card className='mx-2 mb-4' style={{ borderRadius: '10px', border: '#0061a4' }}>
             <CardImg alt='Card image cap' src={flacon} top width='100%' />
             <CardBody>
-              <h6 className='card-category'>170 Ft</h6>
+              {/* <h6 className='card-category'>170 Ft</h6> */}
               <p className='description'>2l flakon töltése</p>
             </CardBody>
           </Card>
@@ -91,7 +91,7 @@ const Products = () => {
           <Card className='mx-2 mb-4' style={{ borderRadius: '10px', border: '#0061a4' }}>
             <CardImg alt='Card image cap' src={flacon} top width='100%' />
             <CardBody>
-              <h6 className='card-category'>140 Ft</h6>
+              {/* <h6 className='card-category'>140 Ft</h6> */}
               <p className='description'>1,5l flakon töltése</p>
             </CardBody>
           </Card>
@@ -100,7 +100,7 @@ const Products = () => {
           <Card className='mx-2 mb-4' style={{ borderRadius: '10px', border: '#0061a4' }}>
             <CardImg alt='Card image cap' src={flacon2} top width='100%' />
             <CardBody>
-              <h6 className='card-category'>120 Ft</h6>
+              {/* <h6 className='card-category'>120 Ft</h6> */}
               <p className='description'>1l flakon töltése</p>
             </CardBody>
           </Card>
