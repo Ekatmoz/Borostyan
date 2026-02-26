@@ -20,8 +20,8 @@ const Footer = () => {
           <Col xs={6} md={3}>
             <h3>Nyitvatartás</h3>
             <p>
-              H-P: 8:00 - 17:00<br />
-              Szombat: 8:00 - 12:00<br />
+              H-P: 09:00 - 17:00<br />
+              Szombat: 09:00 - 12:00<br />
               Vasárnap és ünnepnapokon zárva
             </p>
           </Col>
