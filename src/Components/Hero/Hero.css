@@ -1,7 +1,7 @@
 .hero{
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: url(../../img/background.jpg);
+  background: url(../../img/background.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -22,10 +22,6 @@
   font-size: 4em;
   font-weight: 700;
   color: #ffffff;
-  background: #fbf8ec;
-  background: -moz-linear-gradient(top, #ffffff 55%, #2497cc 100%);
-  background: -webkit-linear-gradient(top, #ffffff 55%, #2497cc 100%);
-  background: -ms-linear-gradient(top, #ffffff 55%, #2497cc 100%);
   background: linear-gradient(to bottom, #ffffff 55%, #2497cc 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

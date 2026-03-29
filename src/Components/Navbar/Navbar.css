@@ -622,8 +622,10 @@
   color: #66615b;
   text-transform: uppercase;
 }
-.navbar .navbar-toggler:focus {
+.navbar .navbar-toggler:focus,
+.navbar .navbar-toggler:active {
   outline: none;
+  box-shadow: none;
 }
 .navbar .form-control-feedback {
   padding-left: 0px;
