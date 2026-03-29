@@ -34,6 +34,8 @@ const AboutUs = () => {
               src={about}
               alt='Our office'
               className='img-fluid custom-rounded'
+              loading='lazy'
+              decoding='async'
               style={{ maxWidth: '100%', height: 'auto' }}
             />
           </Col>

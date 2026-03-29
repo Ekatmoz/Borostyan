@@ -20,39 +20,39 @@ const Partners = () => {
       </Row>
       <Row>
         <Col>
-          <img src={img1} alt='Frei Cafe' width='140px' />
+          <img src={img1} alt='Frei Cafe' width='140px' loading='lazy' decoding='async' />
         </Col>
         <Col>
-          <img src={img2} alt='Hotel Azur' width='140px' />
+          <img src={img2} alt='Hotel Azur' width='140px' loading='lazy' decoding='async' />
         </Col>
         <Col>
-          <img src={img3} alt='Sushi Bar' width='140px' />
+          <img src={img3} alt='Sushi Bar' width='140px' loading='lazy' decoding='async' />
         </Col>
         <Col>
-          <img src={img4} alt='Egy csipet nápoly' width='140px' />
+          <img src={img4} alt='Egy csipet nápoly' width='140px' loading='lazy' decoding='async' />
         </Col>
         <Col>
-          <img src={img5} alt='Cafe Spirit' width='140px' />
+          <img src={img5} alt='Cafe Spirit' width='140px' loading='lazy' decoding='async' />
         </Col>
         <Col>
-          <img src={img6} alt='Baloton Grill' width='140px' />
+          <img src={img6} alt='Baloton Grill' width='140px' loading='lazy' decoding='async' />
         </Col>
       </Row>
       <Row>
         <Col>
-          <img src={img8} alt='Fresko Bisztro' width='140px' />
+          <img src={img8} alt='Fresko Bisztro' width='140px' loading='lazy' decoding='async' />
         </Col>
         <Col>
-          <img src={img9} alt='Melba cukrászda' width='140px' />
+          <img src={img9} alt='Melba cukrászda' width='140px' loading='lazy' decoding='async' />
         </Col>
         <Col>
-          <img src={img10} alt='Sungarden hotel' width='140px' />
+          <img src={img10} alt='Sungarden hotel' width='140px' loading='lazy' decoding='async' />
         </Col>
         <Col>
-          <img src={img11} alt='Marcipán cukrászda' height='130px' />
+          <img src={img11} alt='Marcipán cukrászda' height='130px' loading='lazy' decoding='async' />
         </Col>
         <Col>
-          <img src={img12} alt='Marcipán cukrászda' width='140px' />
+          <img src={img12} alt='Marcipán cukrászda' width='140px' loading='lazy' decoding='async' />
         </Col>
       </Row>
     </Container>

@@ -25,7 +25,7 @@ const PiViz = () => {
             </p>
           </Col>
           <Col md={4}>
-            <img src={piviz1} alt='Illustration of PI water concept' className='img-fluid rounded' />
+            <img src={piviz1} alt='Illustration of PI water concept' className='img-fluid rounded' loading='lazy' decoding='async' />
           </Col>
         </Row>
         <Row>

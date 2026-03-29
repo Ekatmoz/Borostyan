@@ -59,31 +59,31 @@ const Gallery = () => {
           className='swiper_container'
         >
           <SwiperSlide>
-            <img src={img1} alt='slide_img1' />
+            <img src={img1} alt='slide_img1' loading='lazy' decoding='async' />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img2} alt='slide_img2' />
+            <img src={img2} alt='slide_img2' loading='lazy' decoding='async' />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img3} alt='slide_img3' />
+            <img src={img3} alt='slide_img3' loading='lazy' decoding='async' />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img4} alt='slide_img4' />
+            <img src={img4} alt='slide_img4' loading='lazy' decoding='async' />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img5} alt='slide_img5' />
+            <img src={img5} alt='slide_img5' loading='lazy' decoding='async' />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img6} alt='slide_img6' />
+            <img src={img6} alt='slide_img6' loading='lazy' decoding='async' />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img7} alt='slide_img7' />
+            <img src={img7} alt='slide_img7' loading='lazy' decoding='async' />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img8} alt='slide_img8' />
+            <img src={img8} alt='slide_img8' loading='lazy' decoding='async' />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img9} alt='slide_img9' />
+            <img src={img9} alt='slide_img9' loading='lazy' decoding='async' />
           </SwiperSlide>
           <div className='slider-controler'>
             <div className='swiper-button-prev slider-arrow'>
