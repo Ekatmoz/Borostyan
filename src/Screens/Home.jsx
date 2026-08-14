@@ -8,17 +8,18 @@ const Gallery = lazy(() => import('../Components/Gallery/Gallery'));
 const Description = lazy(() => import('../Components/Info/Description'));
 const Partners = lazy(() => import('../Components/Partners/Partners'));
 const Products = lazy(() => import('../Components/Products/Products'));
-//import { useEffect } from 'react';
+import { useEffect } from 'react';
+import Swal from 'sweetalert2';
 
 const Home = () => {
-  // useEffect(() => {
-  //   Swal.fire({
-  //     title: 'Kedves vásárlóink!',
-  //     html: 'Augusztus utolsó hetében (25-31) üzemünk zárva tart, kiszállítás szünetel!<br /> Megértésüket köszönjük szépen!',
-  //     icon: 'info',
-  //     confirmButtonText: 'Ok',
-  //   });
-  // }, []);
+  useEffect(() => {
+    Swal.fire({
+      title: 'Kedves vásárlóink!',
+      html: 'Augusztus 24-29.-ig üzemünk zárva tart,<br> a kiszállítás is szünetel.<br /> Megértésüket köszönjük szépen!',
+      icon: 'info',
+      confirmButtonText: 'Ok',
+    });
+  }, []);
 
   return (
     <div id='home'>
