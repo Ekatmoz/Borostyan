@@ -1,6 +1,7 @@
-//import Swal from 'sweetalert2';
-import { Suspense, lazy } from 'react';
+import { Suspense, lazy, useEffect } from 'react';
+import Swal from 'sweetalert2';
 import Hero from '../Components/Hero/Hero';
+
 const AboutUs = lazy(() => import('../Components/About us/AboutUs'));
 const Advantages = lazy(() => import('../Components/Advantages/Advantages'));
 const Delivery = lazy(() => import('../Components/Delivery/Delivery'));
@@ -8,8 +9,6 @@ const Gallery = lazy(() => import('../Components/Gallery/Gallery'));
 const Description = lazy(() => import('../Components/Info/Description'));
 const Partners = lazy(() => import('../Components/Partners/Partners'));
 const Products = lazy(() => import('../Components/Products/Products'));
-import { useEffect } from 'react';
-import Swal from 'sweetalert2';
 
 const Home = () => {
   useEffect(() => {
