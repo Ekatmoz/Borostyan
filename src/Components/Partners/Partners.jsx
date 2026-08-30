@@ -1,14 +1,14 @@
 import React from 'react';
 import { Col, Container, Row } from 'reactstrap';
-import img1 from '../../img/cafe-frei.png';
-import img2 from '../../img/azur.jpeg';
+import img1 from '../../img/cafe-frei.webp';
+import img2 from '../../img/azur.webp';
 import img3 from '../../img/Logo.jpg';
-import img4 from '../../img/egycsipenapolylogo.png';
+import img4 from '../../img/egycsipenapolylogo.webp';
 import img5 from '../../img/spirit.png';
 import img6 from '../../img/balaton_grill.webp';
 import img8 from '../../img/fresko.jpeg';
 import img9 from '../../img/melba.jpeg';
-import img10 from '../../img/sungarden.png';
+import img10 from '../../img/balaland.jpeg';
 import img11 from '../../img/siofok-marcipan-cukraszda-kavezo7.jpg';
 import img12 from '../../img/marci abc.webp';
 

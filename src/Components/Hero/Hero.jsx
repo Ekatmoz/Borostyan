@@ -1,6 +1,6 @@
 import { memo } from 'react';
 import './Hero.css';
-import bottle from '../../img/bottle.png';
+import bottle from '../../img/bottle.webp';
 import { Button, Container, Row, Col } from 'reactstrap';
 
 const BOTTLE_W = 450;

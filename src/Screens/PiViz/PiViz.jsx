@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import piviz1 from '../../img/piViz19.png';
+import piviz1 from '../../img/piViz19.webp';
 
 const PiViz = () => {
   return (

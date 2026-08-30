@@ -1,5 +1,5 @@
-import { Suspense, lazy, useEffect } from 'react';
-import Swal from 'sweetalert2';
+import { Suspense, lazy } from 'react';
+// import Swal from 'sweetalert2';
 import Hero from '../Components/Hero/Hero';
 
 const AboutUs = lazy(() => import('../Components/About us/AboutUs'));
@@ -11,14 +11,14 @@ const Partners = lazy(() => import('../Components/Partners/Partners'));
 const Products = lazy(() => import('../Components/Products/Products'));
 
 const Home = () => {
-  useEffect(() => {
-    Swal.fire({
-      title: 'Kedves vásárlóink!',
-      html: 'Augusztus 24-29.-ig üzemünk zárva tart,<br> a kiszállítás is szünetel.<br /> Megértésüket köszönjük szépen!',
-      icon: 'info',
-      confirmButtonText: 'Ok',
-    });
-  }, []);
+  // useEffect(() => {
+  //   Swal.fire({
+  //     title: 'Kedves vásárlóink!',
+  //     html: 'Augusztus 24-29.-ig üzemünk zárva tart,<br> a kiszállítás is szünetel.<br /> Megértésüket köszönjük szépen!',
+  //     icon: 'info',
+  //     confirmButtonText: 'Ok',
+  //   });
+  // }, []);
 
   return (
     <div id='home'>

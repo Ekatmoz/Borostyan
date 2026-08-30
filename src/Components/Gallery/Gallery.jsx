@@ -4,7 +4,7 @@ import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
 import img1 from '../../img/gallery1.jpg';
 import img2 from '../../img/gallery3.jpg';
-import img3 from '../../img/aboutUs.jpg';
+import img3 from '../../img/aboutUs.webp';
 import img4 from '../../img/gallery4.jpg';
 import img5 from '../../img/gallery5.jpg';
 import img6 from '../../img/about_img2.jpeg';
