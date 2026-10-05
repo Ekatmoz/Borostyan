@@ -9,7 +9,7 @@ import './Products.css';
 import theme_pattern from '../../img/pattern.png';
 
 const products = [
-  { src: piviz3, label: '1l Pi víz', price: '150 Ft', isNew: true },
+  { src: piviz3, label: '1l Pi víz', price: '100 Ft', isNew: true },
   { src: piviz2, label: '5l Pi víz', price: '500 Ft', isNew: true },
   { src: piviz1, label: '19l Pi víz', price: '1900 Ft', isNew: true },
   { src: ballon, label: '25l Rozsdamentes ballon töltése', price: '2500 Ft' },
