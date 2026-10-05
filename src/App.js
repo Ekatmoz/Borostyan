@@ -12,16 +12,16 @@ const PiViz = lazy(() => import('./Screens/PiViz/PiViz'));
 function App() {
   return (
     <BrowserRouter>
-      <ScrollToTop /> 
-      <IndexNavbar/>
+      <ScrollToTop />
+      <IndexNavbar />
       <Suspense fallback={null}>
         <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/szikviz" element={<Info/>} />
-          <Route path="/piviz" element={<PiViz/>} />
+          <Route path="/" element={<Home />} />
+          <Route path="/szikviz" element={<Info />} />
+          <Route path="/piviz" element={<PiViz />} />
         </Routes>
       </Suspense>
-    <Footer/>
+      <Footer />
     </BrowserRouter>
   );
 }

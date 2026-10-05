@@ -7,7 +7,7 @@
   -webkit-font-smoothing: antialiased;
   text-align: center;
 }
-.card-body .card-category{
+.card-body .card-category {
   font-weight: 600;
   line-height: 1.5rem;
   text-transform: uppercase;
@@ -15,8 +15,35 @@
   color: #146C94;
   word-wrap: break-word;
 }
+
+.product-card {
+  border-radius: 10px;
+  border: 0 none;
+}
+
+.product-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 50rem;
+  font-size: 1rem;
+}
+
 .card-title {
   text-align: center;
   color: #146C94 !important;
+}
+
+@media (max-width: 767.98px) {
+  .product-card .card-category {
+    font-size: 16px;
+  }
+
+  .product-card .description {
+    font-size: 14px;
+  }
 }
 

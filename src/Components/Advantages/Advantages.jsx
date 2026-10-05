@@ -1,4 +1,3 @@
-import React from 'react';
 import { Col, Container, Row } from 'reactstrap';
 import './Advantages.css';
 
@@ -22,7 +21,7 @@ const Advantages = () => {
         </Col>
         <Col xs lg={2} md={4} className='column'>
           <i className='fa-solid fa-recycle custom-icon mb-3'></i>
-          <p className='description'>A forgalomból kivonat palackok újrahasznosításra kerülnek</p>
+          <p className='description'>A forgalomból kivont palackok újrahasznosításra kerülnek</p>
         </Col>
         </Row>
         <Row className="justify-content-md-center">

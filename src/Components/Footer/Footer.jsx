@@ -1,4 +1,3 @@
-import React from 'react';
 import './Footer.css';
 import { Container, Row, Col } from 'reactstrap';
 
@@ -26,7 +25,7 @@ const Footer = () => {
             </p>
           </Col>
           <Col xs={6} md={5}>
-            <h5 className='contact'>Our Location</h5>
+            <h5 className='contact'>Térkép</h5>
             <div className='map-container'>
               <iframe
                 src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2726.6196373875114!2d18.02447817601398!3d46.89053097113305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4769bf5652e91e23%3A0x27028ee699896bd4!2zU2nDs2ZvaywgQm9yb3N0ecOhbiB1dGNhIDM2LCA4NjAw!5e0!3m2!1sen!2shu!4v1729439760038!5m2!1sen!2shu'
@@ -43,7 +42,7 @@ const Footer = () => {
         <Row>
           <Col md='12' className='text-center'>
             <p className='mb-0'>
-              © 2024 Borostyán Szikvíz. All rights reserved. Made by Sió Creative I.T.
+              © {new Date().getFullYear()} Borostyán Szikvíz. All rights reserved. Made by Sió Creative I.T.
             </p>
           </Col>
         </Row>

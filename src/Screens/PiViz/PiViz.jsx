@@ -1,7 +1,7 @@
-import React from 'react';
 import { Col, Container, Row, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import piviz1 from '../../img/piViz19.webp';
+import '../Szikviz/Info.css';
 
 const PiViz = () => {
   return (
@@ -61,14 +61,12 @@ const PiViz = () => {
               Használhatod főzéshez, italok alapjaként. Az ebből készült kávé vagy tea íze nem hasonlítható a szűretlen
               vezetékes vízből készült italokéhoz. A PI víz semleges ízhatása miatt az ételek természetes ízei
               fokozottan előtérbe kerülnek. A PI víz fogyasztása kellemes az ízlelőbimbóknak, egyben a legegyszerűbb út
-              a tisztuláshoz, az egészséghez, a legjobb folyadék a sportoláshoz. Ezt az interneten találtam
+              a tisztuláshoz, az egészséghez, a legjobb folyadék a sportoláshoz.
             </p>
-          </Col>
-          <Link to='/'>
-            <Button className='btn shadow-primary' type='button'>
+            <Button tag={Link} to='/' className='btn shadow-primary' color='info'>
               Vissza
             </Button>
-          </Link>
+          </Col>
         </Row>
       </Container>
     </div>

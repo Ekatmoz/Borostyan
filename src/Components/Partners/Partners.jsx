@@ -1,4 +1,3 @@
-import React from 'react';
 import { Col, Container, Row } from 'reactstrap';
 import img1 from '../../img/cafe-frei.webp';
 import img2 from '../../img/azur.webp';
@@ -12,49 +11,47 @@ import img10 from '../../img/balaland.jpeg';
 import img11 from '../../img/siofok-marcipan-cukraszda-kavezo7.jpg';
 import img12 from '../../img/marci abc.webp';
 
+const partners = [
+  { src: img1, alt: 'Frei Cafe' },
+  { src: img2, alt: 'Hotel Azur' },
+  { src: img3, alt: 'Sushi Bar' },
+  { src: img4, alt: 'Egy csipet nápoly' },
+  { src: img5, alt: 'Cafe Spirit' },
+  { src: img6, alt: 'Balaton Grill' },
+  { src: img8, alt: 'Fresko Bisztro' },
+  { src: img9, alt: 'Melba cukrászda' },
+  { src: img10, alt: 'Sungarden hotel' },
+  { src: img11, alt: 'Marcipán cukrászda', height: 130 },
+  { src: img12, alt: 'Marci ABC' },
+];
+
+const PartnerRow = ({ items }) => (
+  <Row>
+    {items.map((partner) => (
+      <Col key={partner.alt}>
+        <img
+          src={partner.src}
+          alt={partner.alt}
+          width={140}
+          height={partner.height}
+          loading='lazy'
+          decoding='async'
+        />
+      </Col>
+    ))}
+  </Row>
+);
+
 const Partners = () => {
   return (
     <Container className='advantages-container'>
       <Row>
-        <h1 className='title'>Partnereink</h1>
-      </Row>
-      <Row>
         <Col>
-          <img src={img1} alt='Frei Cafe' width='140px' loading='lazy' decoding='async' />
-        </Col>
-        <Col>
-          <img src={img2} alt='Hotel Azur' width='140px' loading='lazy' decoding='async' />
-        </Col>
-        <Col>
-          <img src={img3} alt='Sushi Bar' width='140px' loading='lazy' decoding='async' />
-        </Col>
-        <Col>
-          <img src={img4} alt='Egy csipet nápoly' width='140px' loading='lazy' decoding='async' />
-        </Col>
-        <Col>
-          <img src={img5} alt='Cafe Spirit' width='140px' loading='lazy' decoding='async' />
-        </Col>
-        <Col>
-          <img src={img6} alt='Baloton Grill' width='140px' loading='lazy' decoding='async' />
+          <h1 className='title'>Partnereink</h1>
         </Col>
       </Row>
-      <Row>
-        <Col>
-          <img src={img8} alt='Fresko Bisztro' width='140px' loading='lazy' decoding='async' />
-        </Col>
-        <Col>
-          <img src={img9} alt='Melba cukrászda' width='140px' loading='lazy' decoding='async' />
-        </Col>
-        <Col>
-          <img src={img10} alt='Sungarden hotel' width='140px' loading='lazy' decoding='async' />
-        </Col>
-        <Col>
-          <img src={img11} alt='Marcipán cukrászda' height='130px' loading='lazy' decoding='async' />
-        </Col>
-        <Col>
-          <img src={img12} alt='Marcipán cukrászda' width='140px' loading='lazy' decoding='async' />
-        </Col>
-      </Row>
+      <PartnerRow items={partners.slice(0, 6)} />
+      <PartnerRow items={partners.slice(6)} />
     </Container>
   );
 };

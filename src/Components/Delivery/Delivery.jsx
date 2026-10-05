@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import theme_pattern from '../../img/pattern.png';
 import './Delivery.css'

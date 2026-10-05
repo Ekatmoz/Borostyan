@@ -29,7 +29,6 @@ const AboutUs = () => {
             </p>
           </Col>
           <Col xs={12} md={5} className='text'>
-            {/* <img src={about_2} alt="Our factory" className="img-fluid custom-rounded mb-3" style={{ maxWidth: '80%', height: 'auto' }}  /> */}
             <img
               src={about}
               alt='Our office'

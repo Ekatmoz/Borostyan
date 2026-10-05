@@ -2,12 +2,32 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 const ScrollToTop = () => {
-  const location = useLocation();
+  const { pathname, hash } = useLocation();
 
   useEffect(() => {
-    // Scroll to the top when the route changes
-    window.scrollTo(0, 0);
-  }, [location]);
+    let frame = 0;
+    const started = performance.now();
+
+    const scroll = () => {
+      if (hash) {
+        const target = document.getElementById(decodeURIComponent(hash.slice(1)));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth' });
+          return;
+        }
+
+        if (performance.now() - started < 2000) {
+          frame = requestAnimationFrame(scroll);
+          return;
+        }
+      }
+
+      window.scrollTo(0, 0);
+    };
+
+    frame = requestAnimationFrame(scroll);
+    return () => cancelAnimationFrame(frame);
+  }, [pathname, hash]);
 
   return null;
 };

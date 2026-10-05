@@ -622,6 +622,10 @@
   color: #66615b;
   text-transform: uppercase;
 }
+.navbar .navbar-toggler {
+  border: 0;
+  box-shadow: none;
+}
 .navbar .navbar-toggler:focus,
 .navbar .navbar-toggler:active {
   outline: none;
@@ -5532,5 +5536,31 @@ td.rdtYear:hover {
   }
   .register-page .page-header .container {
     margin-top: 7rem !important;
+  }
+}
+
+.navbar.navbar-transparent {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.navbar .container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar .navbar-brand {
+  margin: 0;
+  padding: 6px 12px;
+}
+
+.navbar .navbar-brand img {
+  height: 108px;
+  width: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar .navbar-brand img {
+    height: 72px;
   }
 }

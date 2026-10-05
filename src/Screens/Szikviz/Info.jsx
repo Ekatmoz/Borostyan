@@ -1,4 +1,3 @@
-import React from 'react';
 import { Col, Container, Row, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import './Info.css';
@@ -35,17 +34,17 @@ const Info = () => {
             </p>
             <p className='description'>Miért igyunk szikvizet inkább, mint cukros üdítőt?</p>
             <p className='description'>
-              A szénsavas víz létrehozásához a vízben széndioxidot oldanak fel - így kerülnek a vízbe a buborélkok.
+              A szénsavas víz létrehozásához a vízben szén-dioxidot oldanak fel - így kerülnek a vízbe a buborékok.
               Azonban semmilyen más hatása nincs a vízre , nem lesz tőle magasabb a kalória- vagy cukortartalma, nem
               kerül az italokba koffein, vitamin vagy éppen ízesítés. A legtöbb szénsavas üdítőital nem azért lehet
               rossz hatással az egészségünkre, mert buborékokat tartalmaz, hanem azért, mert meglehetősen sok plusz
               kalória és adalékanyag van bennük.
             </p>
             <ul className='list'>
-              <li className='ul'>nem tartalmaz tartósítószert</li>
+              <li>nem tartalmaz tartósítószert</li>
               <li>nem tartalmaz adalékanyagot</li>
               <li>fontos a szervezet számára a megfelelő folyadékbevitel</li>
-              <li>az élelmiszeriperi szén-dioxid jótékony hatással van a szervezetünkre, segíti az emésztést</li>
+              <li>az élelmiszeripari szén-dioxid jótékony hatással van a szervezetünkre, segíti az emésztést</li>
               <li>egészséges</li>
               <li>nem hizlal</li>
               <li>szomjat olt</li>
@@ -64,12 +63,10 @@ const Info = () => {
               sok eldobott csomagolással, nem terheljük pénztárcánkat a szemétdíjjal, energiánkat a szelektív gyűjtéssel
               és a visszaváltás gyötrelmeivel!
             </p>
-          </Col>
-          <Link to='/'>
-            <Button className='btn shadow-primary' type='button'>
+            <Button tag={Link} to='/' className='btn shadow-primary' color='info'>
               Vissza
             </Button>
-          </Link>
+          </Col>
         </Row>
       </Container>
     </div>

@@ -19,30 +19,32 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
+const slides = [img1, img2, img3, img4, img5, img6, img7, img8, img9];
+
 const Gallery = () => {
   return (
     <div className='gallery-component'>
       <Container fluid='md'>
         <Row className='text-center mb-4 justify-content-md-center'>
           <Col xs={12} md={7}>
-            <img src={theme_pattern} alt='pattern' style={{ width: '70px' }} />
+            <img src={theme_pattern} alt='' style={{ width: '70px' }} />
             <h2 className='title text-center' id='gallery'>
               Galéria
             </h2>
             <p className='description'>
               Fedezze fel cégünk világát a galériánkban! Ismerje meg a természet tisztaságát, a gyártási folyamatunk
-              innovációit és a termékeink iránti szenvedélyünket!{' '}
+              innovációit és a termékeink iránti szenvedélyünket!
             </p>
           </Col>
         </Row>
       </Container>
       <Container className='container'>
         <Swiper
-          effect={'coverflow'}
-          grabCursor={true}
-          centeredSlides={true}
-          loop={true}
-          slidesPerView={'auto'}
+          effect='coverflow'
+          grabCursor
+          centeredSlides
+          loop
+          slidesPerView='auto'
           coverflowEffect={{
             rotate: 0,
             stretch: 0,
@@ -53,38 +55,15 @@ const Gallery = () => {
           navigation={{
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
-            clickable: true,
           }}
           modules={[EffectCoverflow, Pagination, Navigation]}
           className='swiper_container'
         >
-          <SwiperSlide>
-            <img src={img1} alt='slide_img1' loading='lazy' decoding='async' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={img2} alt='slide_img2' loading='lazy' decoding='async' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={img3} alt='slide_img3' loading='lazy' decoding='async' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={img4} alt='slide_img4' loading='lazy' decoding='async' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={img5} alt='slide_img5' loading='lazy' decoding='async' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={img6} alt='slide_img6' loading='lazy' decoding='async' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={img7} alt='slide_img7' loading='lazy' decoding='async' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={img8} alt='slide_img8' loading='lazy' decoding='async' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={img9} alt='slide_img9' loading='lazy' decoding='async' />
-          </SwiperSlide>
+          {slides.map((src, index) => (
+            <SwiperSlide key={src}>
+              <img src={src} alt={`Galéria kép ${index + 1}`} loading='lazy' decoding='async' />
+            </SwiperSlide>
+          ))}
           <div className='slider-controler'>
             <div className='swiper-button-prev slider-arrow'>
               <i className='fa-solid fa-arrow-left'></i>
