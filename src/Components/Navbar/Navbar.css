@@ -5563,4 +5563,16 @@ td.rdtYear:hover {
   .navbar .navbar-brand img {
     height: 72px;
   }
+
+  .navbar .navbar-collapse {
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 0;
+  }
+
+  .navbar .navbar-collapse::before,
+  .navbar .navbar-collapse::after {
+    display: none;
+    background: none;
+    background-image: none;
+  }
 }

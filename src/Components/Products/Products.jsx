@@ -19,9 +19,6 @@ const products = [
 ];
 
 const Products = () => {
-  // #region agent log
-  fetch('http://127.0.0.1:7619/ingest/2456efea-d0b5-47fc-921b-7dc190e4e528',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'b26371'},body:JSON.stringify({sessionId:'b26371',runId:'pre-fix',hypothesisId:'A-E',location:'Products.jsx:render',message:'products rendered',data:{href:typeof window!=='undefined'?window.location.href:null,prices:products.map((product)=>product.price),labels:products.map((product)=>product.label)},timestamp:Date.now()})}).catch(()=>{});
-  // #endregion
   return (
     <Container id='products'>
       <Row className='text-center mb-4'>
